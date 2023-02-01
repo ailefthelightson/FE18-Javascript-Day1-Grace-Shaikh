@@ -13,3 +13,6 @@ console.log(animals)
 console.log(animals.sort());
 
 console.log(animals)
+
+animals.unshift("cat");
+console.log(animals)
