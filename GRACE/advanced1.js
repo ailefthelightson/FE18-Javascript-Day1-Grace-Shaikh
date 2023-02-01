@@ -5,7 +5,7 @@ let d = '36';
 
 let e = 42;
 
-let total = a + b +c + d +e;
+let total = a + b + Number(c) + Number(d) +e;
 console.log(total)
 
 let f = '1';
@@ -16,7 +16,7 @@ let h = 8;
 
 let i = "1";
 
-let multiplication = f * g * h * i;
+let multiplication = Number(f) * g * h * Number(i);
 console.log(multiplication)
 
 document.write(total/multiplication);

@@ -10,6 +10,6 @@ console.log(tMap)
 // document.write(tMap);
 
 // document.write(tMap);
-document.write("mango \n cherries \n kiwi");
+document.write(tMap.join("<br>"));
 
 
